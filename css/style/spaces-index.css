@@ -1,7 +1,5 @@
 /* =========Standard View========= */
 @media screen and (min-width: 900px) {
-    
-/* ---------Main--------- */
     #team-huddle {
         display: inline-block;
         max-width: 60%;
@@ -56,8 +54,6 @@
 
 /* =========Mobile View========= */
 @media screen and (max-width: 900px) {
-
-/* ---------Main--------- */
     #team-huddle img {
         width: 100%;
     }
@@ -113,4 +109,24 @@ body {
 
 .roster td {
     padding: 10px;
+}
+
+#fig1 {
+    padding: 20px;
+}
+
+#fig2 {
+    padding: 20px;
+}
+
+#fig1 figcaption {
+    padding-left: 35%;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+#fig2 figcaption {
+    padding-left: 35%;
+    padding-bottom: 20px;
+    font-size: larger;
 }

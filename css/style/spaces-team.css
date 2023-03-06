@@ -1,0 +1,49 @@
+/* =========Standard View========= */
+@media screen and (min-width: 900px) {
+    main {
+        padding-left: 50px;
+    }
+
+    h2 {
+        margin-left: 19%;
+    }
+
+    .roster {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    
+    .victory {
+        max-width: 40%;
+        display: inline-block;
+        margin-left: 10%;
+    }
+}
+
+/* =========Mobile View========= */
+@media screen and (max-width: 900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+body {
+    margin: 0 auto;
+}
+
+caption {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
