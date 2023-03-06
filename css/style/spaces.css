@@ -16,6 +16,16 @@
         vertical-align: top;
         margin-top: 250px;
         margin-left: 80px;
+        padding: 40px;
+    }
+    
+    #upcoming-index {
+        padding: 20px;
+    }
+
+    #previous-index {
+        margin-top: 10px;
+        padding: 20px;
     }
 
     .team-container {
@@ -66,12 +76,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 10px;
+        padding-top: 10px;
     }
 
     .store-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    
+    #upcoming-index {
+        padding: 20px;
+    }
+
+    #previous-index {
+        margin-top: 10px;
+        padding: 20px;
     }
 
 }
@@ -84,4 +105,12 @@ body {
 /* ---------Main--------- */
 #team-huddle {
     margin-top: 40px;
+}
+
+.roster th {
+    padding: 15px;
+}
+
+.roster td {
+    padding: 10px;
 }

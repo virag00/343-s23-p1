@@ -1,0 +1,29 @@
+#upcoming-index {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+#previous-index {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.team-container {
+    background-color: darkgray;
+}
+
+.roster {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.roster th {
+    border: 1px solid black;
+}
+
+.roster td {
+    border: 1px solid black;
+}

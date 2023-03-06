@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+}
+
+header {
+    background-color: lightblue;
+    border-bottom: 20px solid black;
+}
+
+footer {
+    background-color: lightblue;
+    border-top: 15px solid black;
+}
