@@ -1,0 +1,67 @@
+
+header {
+    margin: 10px 10px;
+}
+
+.club-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* =========Standard View========= */
+@media screen and (min-width: 900px) {
+
+/* ---------Header--------- */
+    header  {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+    }
+
+    #phi-logo   {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    header h1   {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header nav  {
+        display: inline-block;
+        vertical-align: baseline;
+        position: relative;
+        left: 30%;
+
+    }
+}
+
+/* =========Mobile View========= */
+@media screen and (max-width: 900px) {
+    
+/* ---------Header--------- */
+    header  {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+    }
+
+    #phi-logo   {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    header h1   {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header nav {
+        display: inline-block;
+        vertical-align: baseline;
+        position: relative;
+        left: 130px;
+    }
+}

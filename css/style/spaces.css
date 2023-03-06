@@ -1,28 +1,5 @@
 /* =========Standard View========= */
 @media screen and (min-width: 900px) {
-
-/* ---------Header--------- */
-    header  {
-        width: 100%;
-    }
-
-    #barrel-image   {
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    header h1   {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    header nav  {
-        display: inline-block;
-        vertical-align: baseline;
-        position: relative;
-        left: 30%;
-
-    }  
     
 /* ---------Main--------- */
     #team-huddle {
@@ -38,39 +15,70 @@
         display: inline-block;
         vertical-align: top;
         margin-top: 250px;
+        margin-left: 80px;
     }
-}
 
-/* =========Mobile View========= */
-@media screen and (max-width: 900px) {
-    
-/* ---------Header--------- */
-    header {
-        width: 100vw;
+    .team-container {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .table-container {
+        align-items: center;
+    }
+
+    .roster {
+        margin-top: 160px;
+    }
+
+    .store-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    #store-items-homepage {
+         display: flex;
+         gap: 100px;
+    }
+}
+
+/* =========Mobile View========= */
+@media screen and (max-width: 900px) {
+
 /* ---------Main--------- */
     #team-huddle img {
         width: 100%;
     }
+
+    .schedule-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .schedule-container p {
+        text-align: center;
+    }
+
+    .team-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .store-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /* =========Universal========= */
 body {
     margin: 0 auto;
-}
-
-/* ---------Header--------- */
-header {
-    margin: 10px 10px;
-
-}
-
-.club-name {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ---------Main--------- */

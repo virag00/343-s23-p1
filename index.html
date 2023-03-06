@@ -4,29 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta author="Charlie Virag">
-  <title>Niagara Barrelers FC</title>
+  <title>Greek Philos FC</title>
+  <link rel="icon" href="images/phi.png" type="image/x-icon">
   <link href="css/style/spaces.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style/header-spaces.css">
+  <link rel="stylesheet" href="css/style/footer-spaces.css">
 </head>
 <body>
   <header>
 
-    <a href="index.html" id="barrel-image">
-      <img src="images/barrel.jpg" alt="Barrelers club logo (big)" style="width: 100px;">
+    <a href="index.html" id="phi-logo">
+      <img src="images/phi.png" alt="Philos club logo (big)" style="width: 100px;">
     </a>
 
     <h1 class="club-name">
-      Niagara
+      Greek
       <br>
-      Barrelers
+      Philos
     </h1>
 
     <nav>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="schedule.html">Schecule</a></li>
-      <li><a href="tickets.html">Tickets</a></li>
-      <li><a href="store.html">Store</a></li>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="schedule.html">Schecule</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="store.html">Store</a></li>
+      </ul>
     </nav>
 
   </header>
@@ -35,51 +39,78 @@
 
   <main>
     <figure id="team-huddle">
-      <img src="images/soccer-team-huddle.jpeg" alt="Niagara Barrelers players huddled together">
+      <img src="images/handshake.jpg" alt="Greek Philos' Socrates  picture">
     </figure>
     <div class="schedule-container">
-      <p>Upcoming Match:
+      <h4>Upcoming Match:</h4>
+      <p>
+        March 4
         <br>
-        Sat. March 4, 2023
-        <br>
-        Niagara Barrelers V Death Valley Deserters
+        <a href="tickets.html" style="text-decoration: none;">Greece V France</a> 
       </p>
-      <p>Previous Match:
-        <br>
-        Thur. March 2, 2023
-        <br>
-        Niagara 3 - 2 Yosemite
+      <h4>Previous Match:</h4>
+      <p>
+        Greece 1 - 0 Germany
       </p>
       <p>See full <a href="schedule.html">Schedule</a>.</p>
     </div>
+
     <br>
 
-    <h2>Team</h2>
     <div class="team-container">
+      <div class="table-container">
+        <table class="roster">
+          <caption>Team MVPs</caption>
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>#</th>
+              <th>Player</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>FW</td>
+            <td>10</td>
+            <td>Socrates (c)</td>
+          </tr>
+          <tr>
+            <td>GK</td>
+            <td>1</td>
+            <td>Plato</td>
+          </tr>
+          <tr>
+            <td>FW</td>
+            <td>11</td>
+            <td>Archimedes</td>
+          </tr>
+        </table>
+        <p>See full <a href="team.html">Team</a></p>
+      </div>
       <figure>
-        <img src="images/soccer-team-lineup.jpg" alt="Niagara Barrelers team lineup" style="max-width: 100%;">
+        <img src="images/archimedes-trick.jpeg" alt="Archimedes doing some sick dribbling" style="max-width: 100%;">
       </figure>
     </div>
-    <p>See full <a href="team.html">Team</a></p>
     <br>
-
-    <h2>Store</h2>
-    <p><a href="store.html">See all</a></p>
-    <div>
-      <a href="store.html#blue-jersey-1">
-        <img src="images/blue-jersey-1.jpeg" alt="Blue jersey available at the store" style="width: 200px;" id="blue-jersey-1">
-      </a>
-      <a href="store.html#brown-jersey-1">
-        <img src="images/brown-jersey-1.jpeg" alt="Brown jersey available at the store" style="width: 220px;" id="brown-jersey-1">
-      </a>
+    
+    <div class="store-container">
+      <h2>Store</h2>
+      <p><a href="store.html">See all</a></p>
+      <div id="store-items-homepage">
+        <a href="store.html" style="text-decoration: none;">
+          <img src="images/blue-jersey.jpg" alt="Jersey available at the store" style="width: 200px;" id="blue-jersey-1">
+        </a>
+        <a href="store.html" style="text-decoration: none;">
+          <img src="images/white-jersey.jpeg" alt="Jersey available at the store" style="width: 200px;" id="brown-jersey-1">
+        </a>
+      </div>
     </div>
     <br>
   </main>
 
   <footer>
-    <h3>Niagra Barrelers</h3>
+    <h3 class="club-name">Greek Philos</h3>
     <a href="index.html">
-      <img src="images/barrel.jpg" alt="Barrelers club logo (small)" style="width: 60px;">
+      <img src="images/phi.png" alt="Philos club logo (small)" style="width: 60px;">
     </a>
   </footer>
 </body>
