@@ -23,6 +23,10 @@ body {
     .bottom-store-row {
         display: flex;
     }
+
+    p {
+        margin-top: 40px;
+    }
 }
 
 /* =========Mobile View========= */
