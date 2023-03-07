@@ -1,5 +1,37 @@
 /* =========Standard View========= */
 @media screen and (min-width: 900px) {
+    h2 {
+        max-width: 25vw;
+        text-align: right;
+    }
+
+    .upcoming-match {
+        max-width: 60vw;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+
+    .previous-match {
+        max-width: 60vw;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    h4 {
+        max-width: 25vw;
+        text-align: right;
+    }
+
+    .officials {
+        max-width: 25vw;
+        text-align: right;
+    }
+
+    #german-dispute {
+        margin-left: 50px;
+    }
 }
 
 /* =========Mobile View========= */
@@ -9,6 +41,16 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .upcoming-match {
+        padding: 20px;
+        margin-bottom: 5px;
+    }
+
+    .previous-match {
+        margin-top: 5px;
+        padding: 20px;
     }
     
     #play-by-play {
@@ -26,6 +68,10 @@
 
 body {
     margin: 0 auto;
+}
+
+#versus {
+    font-size: larger;
 }
 
 #ref, #as-ref {

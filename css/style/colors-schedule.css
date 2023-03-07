@@ -1,3 +1,21 @@
+.upcoming-match {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+.previous-match {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+#one-greece {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
 #play-by-play {
     background-color: lightgray;
 }
