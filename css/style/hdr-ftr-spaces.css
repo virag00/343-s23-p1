@@ -57,26 +57,11 @@ footer p {
     
 /* ---------Header--------- */
     header  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 10px;
-    }
-
-    #phi-logo   {
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    header h1   {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    header nav {
-        display: inline-block;
-        vertical-align: baseline;
-        position: relative;
-        left: 30%;
     }
 }
