@@ -1,0 +1,33 @@
+/* =========Standard View========= */
+@media screen and (min-width: 900px) {
+}
+
+/* =========Mobile View========= */
+@media screen and (max-width: 900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #play-by-play {
+        max-width: 100%;
+        padding: 20px;
+        text-align: left;
+        list-style: none;
+    }
+
+    #german-dispute {
+        margin: 10px;
+        text-align: left;
+    }
+}
+
+body {
+    margin: 0 auto;
+}
+
+#ref, #as-ref {
+    font-weight: bold;
+}
