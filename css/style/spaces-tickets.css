@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+}
+
+/* =========Standard View========= */
+@media screen and (min-width: 900px) {
+    main {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-left: 19%;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+}
+
+/* =========Mobile View========= */
+@media screen and (max-width: 900px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .input-form {
+        width: 50vw;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
