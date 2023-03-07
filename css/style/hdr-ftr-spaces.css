@@ -10,45 +10,24 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* ---------Footer--------- */
-footer {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer p {
-    text-align: center;
-} 
-
 /* =========Standard View========= */
 @media screen and (min-width: 900px) {
 
 /* ---------Header--------- */
     header  {
+        display: flex;
         width: 100%;
         margin-left: 0;
         margin-right: 0;
         padding-left: 10px;
     }
 
-    #phi-logo   {
-        display: inline-block;
-        margin-right: 20px;
+    .club-name {
+        padding-left: 20px;
     }
 
-    header h1   {
-        display: inline-block;
-        vertical-align: top;
-    }
-
-    header nav  {
-        display: inline-block;
-        vertical-align: baseline;
-        position: relative;
-        left: 30%;
-
+    nav {
+        margin-left: 25vw;
     }
 }
 
@@ -65,3 +44,15 @@ footer p {
         margin-right: 0;
     }
 }
+
+/* ---------Footer--------- */
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+} 
