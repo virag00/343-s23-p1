@@ -1,0 +1,15 @@
+#price {
+    text-decoration: line-through;
+}
+
+#sold-out {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+#jersey {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
